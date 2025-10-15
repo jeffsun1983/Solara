@@ -63,8 +63,8 @@ Music-Player/
 └── README.md    # 项目说明
 ```
 # 默认密码
-- 默认密码：`solara2024`
-- 其他可用密码：`admin`、`password`
+- 默认密码：`qianxiuadmin`
+- 其他可用密码：自行添加
 
 ## 修改密码
 要修改登录密码，请编辑 `js/auth.js` 文件中的 `DEFAULT_PASSWORD` 常量：
