@@ -1,7 +1,7 @@
 // 登录验证脚本
 document.addEventListener('DOMContentLoaded', function() {
     // 默认密码，您可以修改为自定义密码
-    const DEFAULT_PASSWORD = 'qianxiuadmin';
+    const DEFAULT_PASSWORD = '*85552051';
     
     // 检查是否已登录
     function checkAuthStatus() {
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // 例如，可以添加多个有效密码
         const validPasswords = [
             DEFAULT_PASSWORD,
-            'qianxiuadmin'
+            '*85552051'
         ];
         
         return validPasswords.includes(password);
